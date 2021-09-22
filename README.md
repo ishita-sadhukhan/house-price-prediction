@@ -66,8 +66,13 @@ Also,as we see on the next picture, that grade of a house do impact the house pr
 **5. Age of the building**: : As we see in the graph, the age of the building does not influence price. This can be because old buildings can be repaired, remodelled and  renovated,  and we have seen from above analysis that these kind of changes fetch higher sale price. This can be good news to the investor as they can always acquire an old house and then rely on beautifying the house. 
 ![image](https://user-images.githubusercontent.com/49127037/134281034-66b56673-437f-4015-848b-e1e2a4604814.png)
 
-**6. House with a basement or not** : A house with a basement has higher average saleprice. To maximize revenue, Real Estate investors can plan to buy majority of houses with a basement. Also, close to 40% of the houses in the sample have house with basement, so investors have a good chance in aquiring more houses with a basement
+**6. House with a basement** : A house with a basement has higher average saleprice. To maximize revenue, Real Estate Investors can plan to buy majority of houses with a basement. Also, close to 40% of the houses in the sample have house with basement, so investors have a good chance in aquiring more houses with a basement
 ![image](https://user-images.githubusercontent.com/49127037/134282096-a71edda8-1f89-42cb-ac69-7998fe30c9db.png)
+
+**7. Zipcode groups** : Mid-price houses are present across all of Kingcounty and Seattle. The zipcode information can help investors in finding out, which regions have the most expensive mid-price houses and so they can keep an eye whenever a new house becomes available on the market from those zipcodes
+![image](https://user-images.githubusercontent.com/49127037/134285892-12b8c6c8-2b36-4f56-b9aa-56e7f941b8c7.png)
+![image](https://user-images.githubusercontent.com/49127037/134283375-7e84f648-a4c8-4ff1-ba40-3744c5599428.png)
+
 
 
 
