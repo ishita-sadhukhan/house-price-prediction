@@ -54,13 +54,13 @@ Built models and then evaluate them in this [notebook](). Steps I have done are 
 
 **2. Condition of the house**: EDA also shows, better is the condition of the house, more is the average sale price. This can help the investors in planning their funds in bettering the condition of a house in terms of wear and tear. 
 However, the price range of condition 3-5 is not so different, so investors can plan to spend money to better the condition of the house to atleast 3.
-![image](https://user-images.githubusercontent.com/49127037/134279885-e506402a-20f7-4519-94cd-9ab668f97e65.png)
+![image](https://user-images.githubusercontent.com/49127037/134394179-d54954cf-13aa-401c-9a3d-7f1ba4cdc817.png)
 
 **3. Grade of the house** : The highest grade quality (9 and above) of houses are found near Bellevue and Redmond . Average and above average i.e, Grade 6 and above are found all over King County, which is great for the investors. 
 Also,as we see on the next picture, that grade of a house do impact the house price, and so low grade means investors spending money out of their pocket
 
 ![image](https://user-images.githubusercontent.com/49127037/134280378-14772d32-0b03-438f-8125-1048a0bd5f9a.png)
-![image](https://user-images.githubusercontent.com/49127037/134279592-71157b9b-f04d-4ca8-9d89-eac5de11c9c1.png)
+![image](https://user-images.githubusercontent.com/49127037/134394347-02d816d5-c8a0-487b-a66c-cc59aba16a37.png)
 
 **4. Renovation of a house** : Renovating a house can definitely bring revenue for an investor. Though the percentage of house being renovated with the current sample is less than 5% but investors can definitely use this information if they invest in a not-so-great- building 
 ![image](https://user-images.githubusercontent.com/49127037/134281387-39accbd2-9826-4c53-8cb7-f9a4aba33eea.png)
@@ -72,7 +72,7 @@ Also,as we see on the next picture, that grade of a house do impact the house pr
 ![image](https://user-images.githubusercontent.com/49127037/134282096-a71edda8-1f89-42cb-ac69-7998fe30c9db.png)
 
 **7. Zipcode groups** : Mid-price houses are present across all of Kingcounty and Seattle. The zipcode information can help investors in finding out, which regions have the most expensive mid-price houses and so they can keep an eye whenever a new house becomes available on the market from those zipcodes
-![image](https://user-images.githubusercontent.com/49127037/134285892-12b8c6c8-2b36-4f56-b9aa-56e7f941b8c7.png)
+![image](https://user-images.githubusercontent.com/49127037/134394611-3a1bdebb-9e07-49a3-a83f-cf3e3c5a057d.png)
 ![image](https://user-images.githubusercontent.com/49127037/134283375-7e84f648-a4c8-4ff1-ba40-3744c5599428.png)
 
 ## Model Findings
