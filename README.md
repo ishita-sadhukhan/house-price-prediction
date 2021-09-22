@@ -1,15 +1,15 @@
 # How can Real Estate Investors make better house price predictions in King County,Washington(USA)
 _(Used **Python** for building Machine Learning Models)_
 
-Machine Learning Algorithm output using Python can be used to help investors to understand the mid-value housing market of the King County so as to invest in future.
+Machine Learning Algorithm output can be used to help investors to understand the mid-value housing market of the King County so as to invest in future.
 
 ## Introduction
-In recent years, houses in King county has increased in leaps and bounds. According to [this Zillow Home Value Index](https://www.zillow.com/king-county-wa/home-values/), from 2020 to 2021, prices has increased by a whopping 19%. This has become a lucrative market for real estate investors to buy a property. Real Estate investors tend to buy houses, renovate them and then sell for higher price. 
+In recent years, houses in King county has increased in leaps and bounds. According to [this Zillow Home Value Index](https://www.zillow.com/king-county-wa/home-values/), from 2020 to 2021, prices has increased by a whopping 19%. This has become a lucrative market for real estate investors to invest in a property. Real Estate investors tend to buy houses, renovate them and then sell for higher price. 
 A machine learning algorithm on historical data will help the business to understand the market well. It can address various questions  such as:
 1. What can be the price of a new house in King County?
 2. Which areas in the King County are the most profitable to acquire a new property?
 3. Is renovation important for a house?
-4. Which factors influence if a real estate investor wants to renovate a property it has bought recently? etc
+4. Which factors influence if a real estate investor wants to beautufy a property it has bought recently? etc
 
 The real estate investors are looking answers for the mid-value houses typically priced below a million dollar, typically with 2-6 bedrooms. This is  because, these houses get sold or rented more quickly as there is always a market for them,  thus establishing a steady flow of revenue for the investors. Cost of renovation is also managable and so more quicker is the income generation. 
 
@@ -24,10 +24,10 @@ The dataset is retrieved from Kaggle. It contains 20K+ house records with 18 fea
 
 ## Exploratory Data Analysis
 
-Here in this [notebook]() I do basic exploratory data analysis on the dataset to get an understand of the data. *Python packages like matplotlib and seaborn are used*. Things I covered :
+Here in this [notebook]() I do basic exploratory data analysis on the dataset to get an understanding of the data. *Python packages like matplotlib and seaborn are used*. Things I covered :
 * Getting an understanding of the data 
-* Checking missing values and treating them
-* Trimming the dataset to mid-level houses categories
+* Checking missing values and treating them for fitting any linear model
+* Trimming the dataset to mid-level houses categories to suit the necessity of the real estate investors
 * Analysis of the features with respect to price of the house
 * Visualization of the location of the house with respect to few features of the house and how then can derive better business decision for the investor
 
