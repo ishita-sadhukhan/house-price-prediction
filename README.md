@@ -1,5 +1,7 @@
 # How can Real Estate Investors make better house price predictions in King County,Washington(USA)
-Machine Learning Algorithm output using **Python** can be used to help investors to understand the mid-value housing market of the King County so as to invest in future.
+_(Used **Python** for building Machine Learning Models)_
+
+Machine Learning Algorithm output using Python can be used to help investors to understand the mid-value housing market of the King County so as to invest in future.
 
 ## Introduction
 In recent years, houses in King county has increased in leaps and bounds. According to [this Zillow Home Value Index](https://www.zillow.com/king-county-wa/home-values/), from 2020 to 2021, prices has increased by a whopping 19%. This has become a lucrative market for real estate investors to buy a property. Real Estate investors tend to buy houses, renovate them and then sell for higher price. 
