@@ -87,6 +87,21 @@ Gradient Boosting | 57830
 Decision TreeRegressor | 75808
 LinearRegression | 75810
 
+After hypertuning the Random Forest and fitting with the best estimator, 
+
+**Final Model MAE = 51207**
+
+**Explained Variance by the model = 86%**
+
+It means the final RF model's prediction is just a $51K away  from the actual value of the house and the model explains 86% of the variablity of price across the sample.
+ALso, from the below graph we see that there’s a strong correlation between the model’s predictions and its actual results. For a good fit, the points should be close to the fitted line
+![image](https://user-images.githubusercontent.com/49127037/134292032-46ea40e6-32f3-45cd-92e6-ba865e53dba1.png)
+
+
+**3. Feature Importance** - No machine learning algorithm is complete without knowing which features have the most contribution in the model. 
+
+
+
 
 
 
