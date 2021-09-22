@@ -44,7 +44,7 @@ Built models and then evaluate them in this [notebook](). Steps I have done are 
 * Hyperparameter tuning of the RandomForest model and finally testing on the unseen data
 * Getting the feature importance of the model which shows, which features have contributed the most in the final model
 
-## Findings
+## Data Findings
 
 **1. Presence of a Waterfront** : Exploratory data analysis shows that average price of a house is significatly high when the house has a waterfront. This can be clearly seen in the next pic , that houses near waterbodies(blue dots) like Lake Washington and few others have price > $800K. This can be an important information to real estate investors when they buy or acquire a house by helping them to formulate the price of the house
 ![image](https://user-images.githubusercontent.com/49127037/134278694-c53d0275-f79e-42f3-b304-7d7c0d316af3.png)
@@ -73,6 +73,19 @@ Also,as we see on the next picture, that grade of a house do impact the house pr
 ![image](https://user-images.githubusercontent.com/49127037/134285892-12b8c6c8-2b36-4f56-b9aa-56e7f941b8c7.png)
 ![image](https://user-images.githubusercontent.com/49127037/134283375-7e84f648-a4c8-4ff1-ba40-3744c5599428.png)
 
+## Model Findings
+
+**1. Baseline model** : This is the most simple prediction of a house price. When no ML model is in place, the price of a house is the median price of all the houses in that zipcode group to which this house belongs. This is measured with the evaluation metric Mean Absolute Error (MAE) .
+The MAE for the baseline model= 147222. This says that on average the prediction of the house is off by @147K
+
+**2. Final Model :** : Random Forest came out as a clear winner with three other complex models- Linear Regression, Decision Tree and Gradient Boosting
+
+Models | Mean Absolute Error
+------------ | -------------
+Random Forest | 52940
+Gradient Boosting | 57830
+Decision TreeRegressor | 75808
+LinearRegression | 75810
 
 
 
