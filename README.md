@@ -78,7 +78,7 @@ Also,as we see on the next picture, that grade of a house do impact the house pr
 ## Model Findings
 
 **1. Baseline model** : This is the most simple prediction of a house price. When no ML model is in place, the price of a house is the median price of all the houses in that zipcode group to which this house belongs. This is measured with the evaluation metric Mean Absolute Error (MAE) .
-The MAE for the baseline model= 147222. This says that on average the prediction of the house is off by @147K
+The MAE for the baseline model= 147222. This says that on average the prediction of the house is off by $147K
 
 **2. Final Model :** : Random Forest came out as a clear winner with three other complex models- Linear Regression, Decision Tree and Gradient Boosting
 
@@ -96,12 +96,12 @@ After hypertuning the Random Forest and fitting with the best estimator,
 **Explained Variance by the model = 86%**
 
 It means the final RF model's prediction is just a $51K away  from the actual value of the house and the model explains 86% of the variablity of price across the sample.
-ALso, from the below graph we see that there’s a strong correlation between the model’s predictions and its actual results. For a good fit, the points should be close to the fitted line
+Also, from the below graph we see that there’s a strong correlation between the model’s predictions and its actual results. For a good fit, the points should be close to the fitted line
 ![image](https://user-images.githubusercontent.com/49127037/134292032-46ea40e6-32f3-45cd-92e6-ba865e53dba1.png)
 
 
 **3. Feature Importance** - No machine learning algorithm is complete without knowing which features have the most contribution in the model. 
-We see that features like latitude and longitude i.e the location of the house,the size of the interior living area, grade and condition of the house,  and average size of a room are important room to look a while predicting the house price at King County.
+We see that features like latitude and longitude i.e the location of the house,the size of the interior living area, grade and condition of the house,  and average size of a room are important room to look at while predicting the house price at King County.
 Real Estate investors can pay special attention to these features and see how these features are correlated with price, and then take their business decisions so as to where to invest and where to spend money
 ![image](https://user-images.githubusercontent.com/49127037/134293434-16b5ee9d-95f2-4d03-b191-44385b527ba6.png)
 
