@@ -101,7 +101,7 @@ Also, from the below graph we see that there’s a strong correlation between th
 
 
 **3. Feature Importance** - No machine learning algorithm is complete without knowing which features have the most contribution in the model. 
-We see that features like latitude and longitude i.e the location of the house,the size of the interior living area, grade and condition of the house,  and average size of a room are important room to look at while predicting the house price at King County.
+We see that features like latitude and longitude i.e the location of the house,the size of the interior living area, grade and condition of the house,  and average size of a room are important features to look at while predicting the house price at King County.
 Real Estate investors can pay special attention to these features and see how these features are correlated with price, and then take their business decisions so as to where to invest and where to spend money
 ![image](https://user-images.githubusercontent.com/49127037/134293434-16b5ee9d-95f2-4d03-b191-44385b527ba6.png)
 
