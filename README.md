@@ -24,7 +24,7 @@ The dataset is retrieved from Kaggle. It contains 20K+ house records with 18 fea
 
 ## Exploratory Data Analysis
 
-Here in this [notebook](https://github.com/ishita-sadhukhan/house-price-prediction/blob/main/1.%20Data%20exploration%20and%20Data%20Cleaning.ipynb) I do basic exploratory data analysis on the dataset to get an understanding of the data. *Python packages like matplotlib and seaborn are used*. Things I covered :
+Here in this [notebook](https://github.com/ishita-sadhukhan/house-price-prediction/blob/main/code%20notebooks/1.%20Data%20exploration%20and%20Data%20Cleaning.ipynb) I do basic exploratory data analysis on the dataset to get an understanding of the data. *Python packages like matplotlib and seaborn are used*. Things I covered :
 * Getting an understanding of the data 
 * Checking missing values and treating them for fitting any linear model
 * Trimming the dataset to mid-level houses categories to suit the necessity of the real estate investors
@@ -33,13 +33,13 @@ Here in this [notebook](https://github.com/ishita-sadhukhan/house-price-predicti
 
 ## Feature Engineering and Data Preprocessing
 
-In this [notebook](https://github.com/ishita-sadhukhan/house-price-prediction/blob/main/2.Feature%20Engineering%20and%20Data%20Preprocessing.ipynb) I have tried following things :
+In this [notebook](https://github.com/ishita-sadhukhan/house-price-prediction/blob/main/code%20notebooks/2.Feature%20Engineering%20and%20Data%20Preprocessing.ipynb) I have tried following things :
 * Created few features with the help of existing features , so as to derive more information to feed into the model . I have also created few graphs for data visualization to see how this new features are defining the price of the house
 * Created dummy variables for the categorical features. 
 * A heatmap of the correlation between price and other features is produced to understand which features are highly correlated with price
 
 ## Training models and evaluation and hyperparameter- tuning
-Built models and then evaluate them in this [notebook](https://github.com/ishita-sadhukhan/house-price-prediction/blob/main/3.Model%20Building%20and%20Evaluation.ipynb). Steps I have done are :
+Built models and then evaluate them in this [notebook](https://github.com/ishita-sadhukhan/house-price-prediction/blob/main/code%20notebooks/3.Model%20Building%20and%20Evaluation.ipynb). Steps I have done are :
 * Dividing the data into two parts: training and validation. To find the model, I use the training set and finally test the model on unseen data, which is the validation set
 * Creating a baseline model using the median of house price across the zipcode groups. Mean Absolute Error (MAE) is calculated as the evaluation metric which is the error. Other complex models will be tested against this baseline model MAE. 
 * 4 complex models are run for this regression task and best out of the lot with the lowest MAE is chosen as the final model. I got Random Forest Regression model with the lowest MAE
@@ -74,6 +74,9 @@ Also,as we see on the next picture, that grade of a house do impact the house pr
 **7. Zipcode groups** : Mid-price houses are present across all of Kingcounty and Seattle. The zipcode information can help investors in finding out, which regions have the most expensive mid-price houses and so they can keep an eye whenever a new house becomes available on the market from those zipcodes
 ![image](https://user-images.githubusercontent.com/49127037/134394611-3a1bdebb-9e07-49a3-a83f-cf3e3c5a057d.png)
 ![image](https://user-images.githubusercontent.com/49127037/134283375-7e84f648-a4c8-4ff1-ba40-3744c5599428.png)
+
+### Features used for the model
+The important features which are used in building models are # of bedrooms, area of the living room, location of the homes in the County, age of the buildings etc. As we have seen from the data exploration, these features have significant importance in terms of pricing of a house and thus can contribute in predicting future houses. 
 
 ## Model Findings
 
