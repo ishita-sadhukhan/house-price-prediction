@@ -83,18 +83,18 @@ The important features which are used in building models are # of bedrooms, area
 **1. Baseline model** : This is the most simple prediction of a house price. When no ML model is in place, the price of a house is the median price of all the houses in that zipcode group to which this house belongs. This is measured with the evaluation metric Mean Absolute Error (MAE) .
 The MAE for the baseline model= 147222. This says that on average the prediction of the house is off by $147K
 
-**2. Final Model :** : Random Forest came out as a clear winner with three other complex models- Linear Regression, Decision Tree and Gradient Boosting
+**2. Final Model :** : Random Forest came out as a clear winner compared to Linear Regression model and two other complex models : Decision Tree and Gradient Boosting
 
 Models | Mean Absolute Error
 ------------ | -------------
-Random Forest | 52940
-Gradient Boosting | 57830
-Decision TreeRegressor | 75808
-LinearRegression | 75810
+Random Forest | 52,940
+Gradient Boosting | 57,830
+Decision TreeRegressor | 75,808
+LinearRegression | 75,810
 
 After hypertuning the Random Forest and fitting with the best estimator, 
 
-**Final Model MAE = 51207**
+**Final Model MAE = 51,207**
 
 **Explained Variance by the model = 86%**
 
@@ -108,15 +108,9 @@ We see that features like latitude and longitude i.e the location of the house,t
 Real Estate investors can pay special attention to these features and see how these features are correlated with price, and then take their business decisions so as to where to invest and where to spend money
 ![image](https://user-images.githubusercontent.com/49127037/134293434-16b5ee9d-95f2-4d03-b191-44385b527ba6.png)
 
+## Conclusion
 
+Together, location of the house , square footage of the living area of the houses, grade, and the size of neighbors’ homes result as the best predictors of a house’s price in King County. The model can significantly help Real Estate investors to take these factors all together into account  while acquriing a house. The model though has a limitation which is , houses those are less than a million dollar typically with 2-6 bedrooms are under the scope of this model. Some further investigations on this data showed that due to limited data on high-priced-valued homes, the machine learning model produces high residual errors. 
 
-
-
-
-
-
-
-
- 
-
-
+## Next Steps
+Four supervised machine learning models are being tested on this data. As next steps, we can try to apply deep learning models such as Neural Network models so as to curb our error rate more. Also, due to limited data on high priced value homes, the scope of the model is limited to predicting <$1 million homes. Acquiring more data will help us overcome this constraint and thus can be applied to estimate expensive high-priced houses.
