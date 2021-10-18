@@ -32,22 +32,7 @@ Here in this [notebook](https://github.com/ishita-sadhukhan/house-price-predicti
 * Analysis of the features with respect to price of the house
 * Visualization of the location of the house with respect to few features of the house and how then can derive better business decision for the investor
 
-## Feature Engineering and Data Preprocessing
-
-In this [notebook](https://github.com/ishita-sadhukhan/house-price-prediction/blob/main/code%20notebooks/2.Feature%20Engineering%20and%20Data%20Preprocessing.ipynb) I have tried following things :
-* Created few features with the help of existing features , so as to derive more information to feed into the model . I have also created few graphs for data visualization to see how this new features are defining the price of the house
-* Created dummy variables for the categorical features. 
-* A heatmap of the correlation between price and other features is produced to understand which features are highly correlated with price
-
-## Training models and evaluation and hyperparameter- tuning
-Built models and then evaluate them in this [notebook](https://github.com/ishita-sadhukhan/house-price-prediction/blob/main/code%20notebooks/3.Model%20Building%20and%20Evaluation.ipynb). Steps I have done are :
-* Dividing the data into two parts: training and validation. To find the model, I use the training set and finally test the model on unseen data, which is the validation set
-* Creating a baseline model using the median of house price across the zipcode groups. Mean Absolute Error (MAE) is calculated as the evaluation metric which is the error. Other complex models will be tested against this baseline model MAE. 
-* 4 complex models are run for this regression task and best out of the lot with the lowest MAE is chosen as the final model. I got Random Forest Regression model with the lowest MAE
-* Hyperparameter tuning of the RandomForest model and finally testing on the unseen data
-* Getting the feature importance of the model which shows, which features have contributed the most in the final model
-
-## Data Findings
+### Data Findings
 
 **1. Presence of a Waterfront** : Exploratory data analysis shows that average price of a house is significatly high when the house has a waterfront. This can be clearly seen in the next pic , that houses near waterbodies(blue dots) like Lake Washington and few others have price > $800K. This can be an important information to real estate investors when they buy or acquire a house by helping them to formulate the price of the house
 ![image](https://user-images.githubusercontent.com/49127037/134278694-c53d0275-f79e-42f3-b304-7d7c0d316af3.png)
@@ -76,10 +61,26 @@ Also,as we see on the next picture, that grade of a house do impact the house pr
 ![image](https://user-images.githubusercontent.com/49127037/134394611-3a1bdebb-9e07-49a3-a83f-cf3e3c5a057d.png)
 ![image](https://user-images.githubusercontent.com/49127037/134283375-7e84f648-a4c8-4ff1-ba40-3744c5599428.png)
 
-### Features used for the model
-The important features which are used in building models are # of bedrooms, area of the living room, location of the homes in the County, age of the buildings etc. As we have seen from the data exploration, these features have significant importance in terms of pricing of a house and thus can contribute in predicting future house price. 
+## Feature Engineering and Data Preprocessing
 
-## Model Findings
+In this [notebook](https://github.com/ishita-sadhukhan/house-price-prediction/blob/main/code%20notebooks/2.Feature%20Engineering%20and%20Data%20Preprocessing.ipynb) I have tried following things :
+* Created few features with the help of existing features , so as to derive more information to feed into the model . I have also created few graphs for data visualization to see how this new features are defining the price of the house
+* Created dummy variables for the categorical features. 
+* A heatmap of the correlation between price and other features is produced to understand which features are highly correlated with price
+
+### Features used for the model
+The important features which are used in building models are # of bedrooms, area of the living room, location of the homes in the County, age of the buildings etc. As we have seen from the data exploration, these features have significant importance in terms of pricing of a house and thus can contribute in predicting future house price.
+
+## Training models and evaluation and hyperparameter- tuning
+Built models and then evaluate them in this [notebook](https://github.com/ishita-sadhukhan/house-price-prediction/blob/main/code%20notebooks/3.Model%20Building%20and%20Evaluation.ipynb). Steps I have done are :
+* Dividing the data into two parts: training and validation. To find the model, I use the training set and finally test the model on unseen data, which is the validation set
+* Creating a baseline model using the median of house price across the zipcode groups. Mean Absolute Error (MAE) is calculated as the evaluation metric which is the error. Other complex models will be tested against this baseline model MAE. 
+* 4 complex models are run for this regression task and best out of the lot with the lowest MAE is chosen as the final model. I got Random Forest Regression model with the lowest MAE
+* Hyperparameter tuning of the RandomForest model and finally testing on the unseen data
+* Getting the feature importance of the model which shows, which features have contributed the most in the final model
+
+
+### Model Findings
 
 **1. Baseline model** : This is the most simple prediction of a house price. When no ML model is in place, the price of a house is the median price of all the houses in that zipcode group to which this house belongs. This is measured with the evaluation metric Mean Absolute Error (MAE) .
 The MAE for the baseline model= 147222. This says that on average the prediction of the house is off by $147K
