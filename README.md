@@ -1,7 +1,8 @@
+# Business Problem : 
 # How can Real Estate Investors make better house price predictions in King County,Washington(USA)
 _(Used **Python** for building Machine Learning Models)_
 
-Machine Learning Algorithm output can be used to help investors to understand the mid-value housing market of the King County so as to invest in future.
+To understand and analyze Real Estate features and their effect on market price, **Real Estate Invetors can use this model to take advantage of opportunities to buy, sell, renovate in the extremely profitable and money-making market of King County**. Without a model, often vague estimates are done which hurts the revenue badly. This machine learning model takes into different factors, analyses various factors deeply and thus solves a huge problem of the Real Estate Investors.
 
 ## Introduction
 In recent years, houses in King county has increased in leaps and bounds. According to [this Zillow Home Value Index](https://www.zillow.com/king-county-wa/home-values/), from 2020 to 2021, prices has increased by a whopping 18%. This has become a lucrative market for real estate investors to invest in a property. Real Estate investors tend to buy houses, renovate them and then sell for higher price. 
@@ -9,7 +10,7 @@ A machine learning algorithm on historical data will help the business to unders
 1. What can be the price of a new house in King County?
 2. Which areas in the King County are the most profitable to acquire a new property?
 3. Is renovation important for a house?
-4. Which factors influence if a real estate investor wants to beautufy a property it has bought recently? etc
+4. Which factors influence if a real estate investor wants to beautify a property it has bought recently? etc
 
 The real estate investors are looking answers for the mid-value houses typically priced below a million dollar, typically with 2-6 bedrooms. This is  because, these houses get sold or rented more quickly as there is always a market for them,  thus establishing a steady flow of revenue for the investors. Cost of renovation is also managable and so more quicker is the income generation. 
 
@@ -110,7 +111,7 @@ Real Estate investors can pay special attention to these features and see how th
 
 ## Conclusion
 
-Together, location of the house , square footage of the living area of the houses, grade, and the size of neighbors’ homes result as the best predictors of a house’s price in King County. The model can significantly help Real Estate investors to take these factors all together into account  while acquriing a house. The model though has a limitation which is , houses those are less than a million dollar typically with 2-6 bedrooms are under the scope of this model. Some further investigations on this data showed that due to limited data on high-priced-valued homes, the machine learning model produces high residual errors. 
+Together, location of the house , square footage of the living area of the houses, grade, and the size of neighbors’ homes result as the best predictors of a house’s price in King County. The model can significantly help Real Estate investors to take these factors all together into account  while acquring a house. The model though has a limitation which is , houses those are less than a million dollar typically with 2-6 bedrooms are within the scope of this model. Some further investigations on this data showed that due to limited data on high-priced-valued homes, the machine learning model produces high residual errors. 
 
 ## Next Steps
 Four supervised machine learning models are being tested on this data. As next steps, we can try to apply deep learning models such as Neural Network models so as to curb our error rate more. Also, due to limited data on high priced value homes, the scope of the model is limited to predicting <$1 million homes. Acquiring more data will help us overcome this constraint and thus can be applied to estimate expensive high-priced houses.
