@@ -4,7 +4,7 @@
 
 _(Used **Python** for building Machine Learning Models)_
 
-To understand and analyze Real Estate features and their effect on market price, **Real Estate Invetors can use this model to take advantage of opportunities to buy, sell, renovate in the extremely profitable and money-making market of King County**. Without a model, often vague estimates are done which hurts the revenue badly. This machine learning model takes into different factors, analyses various factors deeply and thus solves a huge problem of the Real Estate Investors.
+To understand and analyze Real Estate features and their effect on market price, **Real Estate Investors can use this model to take advantage of opportunities to buy, sell, renovate in the extremely profitable and money-making market of King County**. Without a model, often vague estimates are done which hurts the revenue badly. This machine learning model takes into different factors, analyses various factors deeply and thus solves a huge problem of the Real Estate Investors.
 
 ## Introduction
 In recent years, houses in King county has increased in leaps and bounds. According to [this Zillow Home Value Index](https://www.zillow.com/king-county-wa/home-values/), from 2020 to 2021, prices has increased by a whopping 18%. This has become a lucrative market for real estate investors to invest in a property. Real Estate investors tend to buy houses, renovate them and then sell for higher price. 
