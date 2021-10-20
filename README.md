@@ -1,5 +1,7 @@
 # Business Problem : 
 # How can Real Estate Investors make better house price predictions in King County,Washington(USA)
+![Screenshot 2021-10-20 023352](https://user-images.githubusercontent.com/49127037/138058027-a9d85497-8bbb-4385-b313-1b0dca7e3dbb.png)
+
 _(Used **Python** for building Machine Learning Models)_
 
 To understand and analyze Real Estate features and their effect on market price, **Real Estate Invetors can use this model to take advantage of opportunities to buy, sell, renovate in the extremely profitable and money-making market of King County**. Without a model, often vague estimates are done which hurts the revenue badly. This machine learning model takes into different factors, analyses various factors deeply and thus solves a huge problem of the Real Estate Investors.
