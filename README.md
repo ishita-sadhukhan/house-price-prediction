@@ -1,4 +1,4 @@
-# Business Problem :  _
+# Business Problem :  
 # How can Real Estate Investors make better house price predictions in King County,Washington(USA)
 ![Screenshot 2021-10-20 023352](https://user-images.githubusercontent.com/49127037/138058027-a9d85497-8bbb-4385-b313-1b0dca7e3dbb.png)
 
@@ -34,7 +34,7 @@ Here in this [notebook](https://github.com/ishita-sadhukhan/house-price-predicti
 * Analysis of the features with respect to price of the house
 * Visualization of the location of the house with respect to few features of the house and how then can derive better business decision for the investor
 
-### Data Findings
+### Data Findings and Recommendations
 
 **1. Presence of a Waterfront** : Exploratory data analysis shows that average price of a house is significatly high when the house has a waterfront. This can be clearly seen in the next pic , that houses near waterbodies(blue dots) like Lake Washington and few others have price > $800K. This can be an important information to real estate investors when they buy or acquire a house by helping them to formulate the price of the house
 ![image](https://user-images.githubusercontent.com/49127037/134278694-c53d0275-f79e-42f3-b304-7d7c0d316af3.png)
