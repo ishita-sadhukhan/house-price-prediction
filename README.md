@@ -85,7 +85,7 @@ Built models and then evaluate them in this [notebook](https://github.com/ishita
 * Dividing the data into two parts: training and validation. To find the model, I use the training set and finally test the model on unseen data, which is the validation set
 * Creating a baseline model using the median of house price across the zipcode groups. Mean Absolute Error (MAE) is calculated as the evaluation metric which is the error. Other complex models will be tested against this baseline model MAE. 
 * 4 complex models are run for this regression task and best out of the lot with the lowest MAE is chosen as the final model. I got Random Forest Regression model with the lowest MAE
-* Hyperparameter tuning of the RandomForest model and finally testing on the unseen data
+* Hyperparameter tuning of the RandomForest model and finally testing on the unseen data - n_estimators, max_features, max_depth, min_samples_leaf
 * Getting the feature importance of the model which shows, which features have contributed the most in the final model
 
 
