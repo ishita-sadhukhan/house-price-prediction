@@ -67,6 +67,13 @@ Also,as we see on the next picture, that grade of a house do impact the house pr
 
 In this [notebook](https://github.com/ishita-sadhukhan/house-price-prediction/blob/main/code%20notebooks/2.Feature%20Engineering%20and%20Data%20Preprocessing.ipynb) I have tried following things :
 * Created few features with the help of existing features , so as to derive more information to feed into the model . I have also created few graphs for data visualization to see how this new features are defining the price of the house
+
+-Creating a variable where a house has both a waterfront and a view
+-Age of the building - how is is house price related to the age of the building
+-Whether the house has been renovated : whether house price gets impacted for ever being renovated or not?
+-If the house has a basement : whether house price gets impacted with having a basement or not?
+-Size of an average room in sq ft : how is is house price related to the average size of a room
+
 * Created dummy variables for the categorical features. 
 * A heatmap of the correlation between price and other features is produced to understand which features are highly correlated with price
 
